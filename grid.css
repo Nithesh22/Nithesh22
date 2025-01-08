@@ -1,0 +1,44 @@
+.cskmain{
+    background-color: rgb(36, 39, 36);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.csk1{
+    background-color: blueviolet;
+    height:50vh;
+    width: 50vh;
+   grid-column: 1/1;
+
+}
+.csk2{
+    background-color:darkgray;
+    height:50vh;
+    width: 50vh;
+   grid-column: 2/2;
+    
+
+}
+.csk3{
+    background-color:darkorange;
+    height:50vh;
+    width: 50vh;
+    grid-column: 3/3;
+
+}
+.csk4{
+    background-color:darkslategray;
+    height:50vh;
+    width: 50vh;
+    grid-column: 1/1;
+
+}
+.csk5{
+    background-color:rgb(234, 17, 17);
+    height:50vh;
+    width: 50vh;
+    grid-column: 2/3;
+
+}
